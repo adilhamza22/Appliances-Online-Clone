@@ -1,0 +1,64 @@
+.banner{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12vh !important;
+}
+.row::after{
+    content: "";
+    clear:both !important;
+    display: table;
+}
+#choice-logo-div{
+    width: 10vw!important;
+    height: 10vh!important;
+}
+#choice-logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+}
+#banner-text{
+    font-size: 11px!important;
+    font-weight: bold !important;
+}
+.fa-magnifying-glass{
+    color: rgb(0, 0, 0) !important;    
+    height: 10vh !important;
+
+}
+/* @media only screen and (max-width: 768px) {
+    .banner{
+        height: 14vh!important;
+    }
+    [class*="col-"]{
+        width: 100%!important;
+    }
+} */ 
+#white-title-text{
+    color: rgb(0, 0, 0) !important;
+    font-size: medium!important;
+    display: inline !important;
+
+}
+#blue-title-text{
+    color:powderblue !important;
+    font-size: medium!important;
+    display: inline !important;
+
+}
+#title-sub{
+    color: rgb(0, 0, 0)!important;
+    display: block;
+    text-indent: 28px!important;
+}
+.fa-whatsapp{
+    color: black !important;
+    height: 10vh !important;
+
+}
+.fa-cart-shopping{
+    color:black !important;
+}
+.title{
+    text-align: center!important;
+}

@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Appliances Online</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="app-online-logo.png">
+    <!-- bs icons cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!--offcanvas for tablet and lesser screen-->
+    <div class="offcanvas offcanvas-start bg-secondary" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="container d-flex justify-content-end mw-100 btn-off">
+            <button type="button " class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <!-- <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
+           
+        </div> -->
+        <div class="offcanvas-body">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fa-solid fa-sink"></i>
+                        Washers & Dryers
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-wind"></i>
+                        Fridges & Freezers
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-sink"></i>
+
+                        Dishwashers,Sinks & Taps</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-fire-burner"></i>
+                        Ovens & Cooking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-tv"></i>
+                        TV,Audio & Electronics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-temperature-arrow-down"></i>
+                        Heating & Cooling</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-blender-phone"></i>
+                        Small Appliances</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        BBQ & Outdoor living</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-bed"></i>
+                        Furniture & Bedding
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav flex-column nav-2">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fa-solid fa-location-pin"></i>
+                        Click to set your location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-user-tie"></i>
+                        My Account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Free, next day delivery*</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Free, removal & recycling</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Price match guarantee</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">24/7 Australian Customer Support</a>
+                </li>
+            </ul>
+            <a class="btn btn-secondary d-flex justify-content-between w-100 nav-item" href="#" role="button"
+                id="dropdownMenuLink" data-bs-toggle="collapse" data-bs-target="#info-collapse" aria-expanded="false">
+                <i class="fa-solid fa-circle-info"></i>
+                Information
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+
+            <ul class="collapse nav flex-column nav-2 " id="info-collapse" aria-labelledby="dropdownMenuLink">
+                <li class="nav-item"><a class="dropdown-item nav-link" href="#">FAQ and Knowledge Base</a></li>
+                <li class="nav-item"><a class="dropdown-item nav-link" href="#">Tradesman Directory</a></li>
+                <li class="nav-item"><a class="dropdown-item nav-link" href="#">Warranty and Cutomer Care</a></li>
+                <li class="nav-item"><a class="dropdown-item nav-link" href="#">FAQ and Knowledge Base</a></li>
+                <li class="nav-item"><a class="dropdown-item nav-link" href="#">Tradesman Directory</a></li>
+                <li class="nav-item"><a class="dropdown-item nav-link" href="#">Warranty and Cutomer Care</a></li>
+                <li class="nav-item"><a class="dropdown-item nav-link" href="#">FAQ and Knowledge Base</a></li>
+                <li class="nav-item"><a class="dropdown-item nav-link" href="#">Tradesman Directory</a></li>
+                <li class="nav-item"><a class="dropdown-item nav-link" href="#">Warranty and Cutomer Care</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--top-most-alert-->
+    <div class="container-fluid mw-100 alert-container">
+        <div class="alert alert-white alert-dismissible fade show" role="alert">
+            <strong>Fisher & Paykel Legendary Buys Now On | Shop Now</strong>
+            <button type="button" class="btn-close btn-light " data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+    <!--topnav-->
+    <div class="container mynav mw-100">
+        <ul class="nav topnav">
+            <li class="nav-item">
+                <a class="nav-link top-2" href="#">
+                    <img src="van.avif" class="top-nav-img">
+                    Free Next Day Delivery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link top-2" href="#">
+                    <!-- <img src="van.avif" class="top-nav-img"> -->
+                    <i class="bi bi-recycle"></i>
+                    Free Removal & Recycling of Old Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link top-2" href="#">
+                    <!-- <img src="van.avif" class="top-nav-img"> -->
+                    <i class="bi bi-asterisk"></i>
+                    Price Match Guarantee</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link top-2" href="#">
+                    <!-- <img src="van.avif" class="top-nav-img"> -->
+                    <i class="bi bi-whatsapp"></i>
+                    24/7 Australian Customer Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="color:var(--primary-text-color, #00b5cc)!important; font-weight: bold; "
+                    href="#">
+                    About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link top-2" href="#">
+                    <!-- <img src="van.avif" class="top-nav-img"> -->
+                    <i class="bi bi-telephone-fill"></i>
+                    Contact Us</a>
+            </li>
+
+        </ul>
+    </div>
+    <!--second navbar-->
+    <div class="header-main container row d-flex justify-content-between align-items-baseline  mw-100" id="header-main">
+        <div class="col">
+            <img src="app-online-logo.png" id="logo-header">
+        </div>
+        <div class="col">
+            <form class="d-flex search-form">
+                <input class="form-control me-2" type="search" placeholder="Search a Product " aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass pt-2" style="color: #00b5cc;"></i>
+
+                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+        </div>
+        <div class="col" id="click-here">
+            <img src="location-pin.png" class="header-icon">
+            <span> Click to set your location</span>
+            <i class="fa-solid fa-pencil" style="color: #00b5cc;"></i>
+        </div>
+        <div class="col">
+            <!-- <img src="location-pin.png" class="header-icon"> -->
+            <i class="fa-solid fa-user-tie header-icon" style="color: #929396;"></i>
+            <span> My Account</span>
+        </div>
+        <div class="col">
+            <img id="ssl-img" src="ssl.png" class="header-icon">
+        </div>
+        <div class="col">
+            <!-- <img src="location-pin.png" class="header-icon"> -->
+            <i class="fa-solid fa-cart-shopping header-icon" style="color: #00b5cc;"></i>
+            <span>Cart</span>
+        </div>
+    </div>
+    <!--third navbar gray-->
+    <div class="container drop-nav-bar mw-100">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto">
+            <div class="container">
+                <!-- <a class="navbar-brand active" href="#">
+                Shop All Products</a> -->
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <!-- </button> -->
+                <div class="collapse navbar-collapse mw-100 " id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-tabs m-auto mb-2 mb-lg-0">
+                        <li class="nav-item active" id="nav-link-active">
+                            <a class="nav-link " aria-current="page" href="#">
+                                <!-- <img src="hamburger.png" id="hamburger-img"> -->
+                                <div class="container-fluid">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarToggleExternalContent"
+                                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                                        aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+                                
+                                <!--Button For menu-->
+                                <button class="btn btn-white btn-menu" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#shop-all" aria-expanded="false" aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-bars text-white"></i>
+                            </button>
+                                <span>Shop All Products</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Washers & Dryers</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fridges & Freezers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ovens & Cooking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Dishwashers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TVs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Heating & Cooling</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Replacement Navbar-->
+    <div class="container mw-100 sticky-top bg-light  replacement-nav-div">
+        <ul class="nav d-flex justify-content-between align-items-baseline">
+            <div class="d-flex justify-content-center align-items-baseline">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                      <!--button for offcanvas-->
+                      <button class="btn btn-light btn-off-canvas" type="button" data-bs-toggle="offcanvas"
+                          data-bs-target="#offcanvas" aria-controls="offcanvasExample">
+                          <i class="fa-solid fa-bars text-white"></i>
+                      </button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                  </li>
+            </div>
+            <div class="d-flex">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="app-online-logo.png" height="80px" id ="app-online-img" ></a>
+                  </li>
+            </div>
+            <div class="d-flex justify-content-center align-items-baseline">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                          <i class="fa-brands fa-whatsapp"></i>
+      
+                      </a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+    
+                    </a>
+                  </li>
+
+            </div>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li> -->
+          </ul>
+    </div>
+    <!--DropDownMenu-->
+     <!--SHOP ALL PRODUCTS-->
+     <div class="row  shop-all g-0 collapse " id="shop-all" >
+            <ul class="list-group col ms-4 first-list">
+                <li class="list-group-item d-flex justify-content-between active">
+                    Washers & Dryers
+                    <i class="fa-solid fa-caret-right"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">Fridges & Freezers<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item d-flex justify-content-between">Dishwashers, Sinks & Taps<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item d-flex justify-content-between">Ovens & Cooking<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item d-flex justify-content-between">TV,Audio & Electronics<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item d-flex justify-content-between">Heating & Cooling<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item d-flex justify-content-between">Small Appliances<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item d-flex justify-content-between">BBQs & Outdoor Living<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item d-flex justify-content-between">Health, Beauty & Fitness<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item d-flex justify-content-between">Furniture & Bedding<i class="fa-solid fa-caret-right"></i></li>
+            </ul>
+            <!-- <div class="right col"> -->
+              <div class="list-group col second-list">
+                <li class="list-group-item">Washing Machines<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item">Dryers<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item">Laundry Packages<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item">Washer Dryer Combo<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item">View All</li>
+              </div>
+              <div class="list-group col third-list">
+                <li class="list-group-item">Front Loaders<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item">Top Loaders<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item">Washer Dryer Combo<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item">Laundry Packages<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item">Twin Tub Washing Machine<i class="fa-solid fa-caret-right"></i></li>
+                <li class="list-group-item">View All</li>
+              </div>
+              <div class="list-group col fourth-list">
+                <span><h5>Popular Brands</h5></span>
+                <li class="list-group-item"><img src="sony.svg"></li>
+                <li class="list-group-item"><img src="thor-771af4f9.svg"></li>
+                <li class="list-group-item"><img src="blackdecker.svg"></li>
+                <li class="list-group-item"><img src="dimplex-37833061.svg"></li>
+                <li class="list-group-item"><img src="siemens-d4bc1889.svg"></li>
+                <li class="list-group-item"><img src="pioneer-76a1efce.svg"></li>
+                <li class="list-group-item"><img src="omega.svg"></li>
+              </div>
+                <div class="list-group col me-4 fifth-list">
+                    <span><h5>Promotions</h5></span>
+                    <li class="list-group-item"><img src="Esatto.jpeg"></li>
+                    <li class="list-group-item"><Sub>Bosch free Omo laundry Powder </Sub></li> 
+                    <li class="list-group-item"><img src="Beko-5.jpeg"></li>
+                    <li class="list-group-item"><Sub>Chiq Bonus Warranty offer</Sub></li> 
+                    <li class="list-group-item">View All</li>
+
+                </div>
+            <!-- </div> -->
+
+              
+
+     </div>
+     
+     
+
+
+
+
+
+    <!--Main Cards-->
+    <div class="container cards-container mw-100">
+        <!--first row-->
+
+        <div class="row g-0 ">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-img-4">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="frides.webp">
+                        <h4 class="card-title text-center">Fridges & Freezers</h4>
+                        <span><strong>View All</strong></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-img-4">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="laundry.webp">
+                        <h4 class="card-title text-center">Laundry Appliances</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-img-4">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="small-app.webp">
+                        <h4 class="card-title text-center">Small Appliances</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 col-img-4">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="furniture.webp">
+                        <h4 class="card-title text-center">Hot Offers</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+             <!-- 992 and lower -->
+             <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-palmtop-cards" style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="bbq.webp">
+                        <h4 class="card-title text-center">Health, Beauty & Fitness</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-palmtop-cards" style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="furniture.webp">
+                        <h4 class="card-title text-center">Beds & Matresses</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--second row-->
+
+        <div class="row g-0 second-row">
+            <!-- <div class="row"> -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="ovens.webp">
+                        <h4 class="card-title text-center">Ovens & Cooking</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="dishwasher.webp">
+                        <h4 class="card-title text-center">Dishwashers, Sinks & Taps</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="heating.webp">
+                        <h4 class="card-title text-center">Heating & Cooling</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 768 and lower -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-mobile-card" style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="bbq.webp">
+                        <h4 class="card-title text-center">Health, Beauty & Fitness</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+             <!-- 992 and lower -->
+             <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-palmtop-cards" style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="bbq.webp">
+                        <h4 class="card-title text-center">Health, Beauty & Fitness</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-palmtop-cards" style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="furniture.webp">
+                        <h4 class="card-title text-center">Beds & Matresses</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+           
+
+        </div>
+        <!--third row-->
+        <div class="container col-lg-3" id="card-ad-container">
+            <div class="card card-main m-2" id="card-main-ad">
+                <div class="card-body">
+                    <img src="card-ad.png">
+                    <!-- <h4 class="card-title text-center">Fridges & Freezers</h4> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-0 third-row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="beds.webp">
+                        <h4 class="card-title text-center">TV, Audio & Electronics</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="bbq.webp">
+                        <h4 class="card-title text-center">Health, Beauty & Fitness</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="furniture.webp">
+                        <h4 class="card-title text-center">Beds & Matresses</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 768px and lower -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-mobile-card " style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="heating.webp">
+                        <h4 class="card-title text-center">Heating & Cooling</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+             <!-- 992 and lower -->
+             <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-palmtop-cards" style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="bbq.webp">
+                        <h4 class="card-title text-center">Health, Beauty & Fitness</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-palmtop-cards" style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="furniture.webp">
+                        <h4 class="card-title text-center">Beds & Matresses</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+           
+
+        </div>
+        <!--fourth row-->
+        <div class="row g-0 ">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-img-4 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="home-office.webp">
+                        <h4 class="card-title text-center">BBQs & Outdoor Living</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-img-4 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="more.webp">
+                        <h4 class="card-title text-center">Furniture</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-img-4 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="laundry.webp">
+                        <h4 class="card-title text-center">Home Office</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-img-4 col-6 ">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="small-app.webp">
+                        <h4 class="card-title text-center">More from Andoo</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+             <!-- 992 and lower -->
+             <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-palmtop-cards" style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="bbq.webp">
+                        <h4 class="card-title text-center">Health, Beauty & Fitness</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 last-palmtop-cards" style="display: none;">
+                <div class="card card-main m-2">
+                    <div class="card-body">
+                        <img src="furniture.webp">
+                        <h4 class="card-title text-center">Beds & Matresses</h4>
+                        <span><strong>View All</strong></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--banner left & right-->
+    <div class="container-fluid row banner-mid-container">
+        <div class="col col-lg-2 col-md-1 col-sm-1">
+            <img src="banner-left.png">
+
+        </div>
+        <div class="col col-lg-2 col-md-1 col-sm-1">
+            <img src="banner-right.png">
+
+        </div>
+    </div>
+    <!--Perks row-->
+    <div class="row container mw-100 perks-row-container d-flex align-items-baseline">
+        <div
+            class="col col-lg-3 col-md-6 col-sm-6 col-6  d-flex flex-column justify-content-center align-items-center text-center">
+            <!-- <img src="van.avif" height="100px" width="100px"> -->
+            <img src="./images/one.png" height="50px" width="50px">
+            <p><strong>Free, next day delivery</strong></p>
+        </div>
+        <div
+            class="col col-lg-3 col-md-6 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center text-center">
+            <img src="./images/four.png.png" height="50px" width="50px">
+
+            <!-- <i class="fa-solid fa-recycle" ></i> -->
+            <p><strong>Free, removal & recycling of old products</strong></p>
+        </div>
+        <div class="col col-lg-3 col-md-6 col-sm-6 col-6  d-flex flex-column justify-content-center align-items-center">
+            <img src="./images/new.png" height="50px" width="50px">
+
+            <p><strong>24/7 Australian Customer Support</strong></p>
+        </div>
+        <div class="col col-lg-3 col-md-6 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center">
+            <img src="./images/two.png" height="40px" width="40px">
+            <p><strong>Price Match Guarantee</strong></p>
+
+
+        </div>
+
+    </div>
+    <!--Promo Cards Container-->
+    <div class="container row mw-100 promo-cards-container" id="promo-cards-container">
+        <div class="col col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card card-main m-2">
+                <div class="card-body promo-card">
+                    <strong>Clearance</strong>
+                    <p><sub>Pick up a bargain today</sub></p>
+                    <div class="row mw-100 promo-inner-row">
+                        <div class="col">
+                            <button type="button" class=" btn btn-light" id="promo-view-btn">View</button>
+                        </div>
+                        <div class="col" id="tag-container">
+                            <!-- <img src="tag-icon.png" id ="tag-icon" class="col"> -->
+                            <img src="price-tag.png" height="10px" width="10px" alt="price-tag">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card card-main m-2">
+                <div class="card-body promo-card">
+                    <strong>Buying Guides</strong>
+                    <p><sub>Pick up a bargain today</sub></p>
+                    <div class="row mw-100 promo-inner-row">
+                        <div class="col">
+                            <button type="button" class=" btn btn-light" id="promo-view-btn">View</button>
+                        </div>
+                        <div class="col" id="tag-container">
+                            <!-- <img src="tag-icon.png" id ="tag-icon" class="col"> -->
+                            <img src="price-tag.png" height="10px" width="10px" alt="price-tag">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-3 col-md-6 col-sm-6 col-6">
+            <div class="card card-main m-2">
+                <div class="card-body promo-card">
+                    <strong>Promotions</strong>
+                    <p><sub>Pick up a bargain today</sub></p>
+                    <div class="row mw-100 promo-inner-row">
+                        <div class="col">
+                            <button type="button" class=" btn btn-light" id="promo-view-btn">View</button>
+                        </div>
+                        <div class="col" id="tag-container">
+                            <!-- <img src="tag-icon.png" id ="tag-icon" class="col"> -->
+                            <img src="price-tag.png" height="10px" width="10px" alt="price-tag">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-lg-3 col-md-6 col-sm-6 col-6 ">
+            <div class="card card-main m-2">
+                <div class="card-body promo-card">
+                    <strong>Testimonials </strong>
+                    <p><sub>Pick up a bargain today</sub></p>
+                    <div class="row mw-100 promo-inner-row">
+                        <div class="col">
+                            <button type="button" class=" btn btn-light" id="promo-view-btn">View</button>
+                        </div>
+                        <div class="col" id="tag-container">
+                            <!-- <img src="tag-icon.png" id ="tag-icon" class="col"> -->
+                            <img src="price-tag.png" height="10px" width="10px" alt="price-tag">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Trusted Brands Container-->
+    <div class="container row d-flex flex-wrap mw-100 brands-container">
+        <div class="row mw-100">
+            <strong>Our Trusted Brands</strong>
+        </div>
+        <div class="col-lg-10 brands-left-col">
+            <div class="row row-brands">
+                <div class="col ">
+                    <img src="vans.jpg" id="trusted-brands-img">
+                </div>
+                <div class="col ">
+                    <img src="philips.svg" id="trusted-brands-img">
+                </div>
+                <div class="col ">
+                    <img src="blackdecker.svg" id="trusted-brands-img">
+                </div>
+                <div class="col ">
+                    <img src="haier.svg" id="trusted-brands-img">
+                </div>
+                <div class="col ">
+                    <img src="omega.svg" id="trusted-brands-img">
+                </div>
+            </div>
+
+            <div class="row row-brands">
+                <div class="col ">
+                    <img src="dimplex-37833061.svg" id="trusted-brands-img">
+                </div>
+                <div class="col ">
+                    <img src="franke-d691f89e.svg" id="trusted-brands-img">
+                </div>
+                <div class="col ">
+                    <img src="thor-771af4f9.svg" id="trusted-brands-img">
+                </div>
+                <div class="col ">
+                    <img src="sony.svg" id="trusted-brands-img">
+                </div>
+                <div class="col ">
+                    <img src="siemens-d4bc1889.svg" id="trusted-brands-img">
+                </div>
+
+            </div>
+        </div>
+        <div class="col-lg-2 brands-right-col">
+            <!-- <img src="vans.jpg" id="trusted-brands-img"> -->
+            <button class="btn btn-primary see-all-brands" type="button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal" aria-expanded="false" aria-controls="collapseExample">
+                See All Brands
+                <i class="fa-solid fa-caret-down"></i>
+            </button>
+            <!--Modal See All brands-->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true" style="display: none;">
+                <div class="modal-dialog modal-fullscreen modal-dialog-centered modal-dialog-scrollable w-75 p-5 ">
+                    <div class="modal-content">
+                        <!-- <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        </div> -->
+
+                        <div class="modal-body">
+
+                            <div class="row d-flex modal-row">
+                                <h5>Most Popular Brands</h5>
+                                <button type="button" class="btn-close btn-cross-modal" id="btn-cross-modal"
+                                    data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                <div class="col modal-col">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">LG</li>
+                                        <li class="list-group-item">Delonghi</li>
+                                        <li class="list-group-item">Euromaid</li>
+                                        <li class="list-group-item">Bosch</li>
+                                    </ul>   
+                                </div>
+                                <div class="col modal-col">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Panasonic</li>
+                                        <li class="list-group-item">Haier</li>
+                                        <li class="list-group-item">Fisher & Paykel</li>
+                                    </ul>
+                                </div>
+                                <div class="col modal-col">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">WestingHouse</li>
+                                        <li class="list-group-item">Samsung</li>
+                                        <li class="list-group-item">Electrolux</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row modal-row ">
+                                <h5>All Brands</h5>
+                                <div class="col modal-col">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col modal-col">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+
+                                    </ul>
+                                </div>
+                                <div class="col modal-col">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+                                        <li class="list-group-item">A.H. Beard</li>
+                                        <li class="list-group-item">Altus</li>
+                                        <li class="list-group-item">Artinox</li>
+                                        <li class="list-group-item">Barazza</li>
+                                        <li class="list-group-item">Beko</li>
+                                        <li class="list-group-item">Bialetti</li>
+                                        <li class="list-group-item">Billi</li>
+                                        <li class="list-group-item">Black & Decker</li>
+                                        <li class="list-group-item">Bora</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                        <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <!--Div See All Brands -->
+    <div class="container row see-all-brands-div">
+        <div class="col-2">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <!-- <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li> -->
+            </ul>
+        </div>
+        <div class="col-2">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <!-- <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li> -->
+
+            </ul>
+        </div>
+        <div class="col-2">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <!-- <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li> -->
+
+            </ul>
+        </div>
+        <div class="col-2">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <!-- <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li> -->
+
+            </ul>
+        </div>
+        <div class="col-2">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <!-- <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li> -->
+
+            </ul>
+        </div>
+        <div class="col-2">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li>
+                <!-- <li class="list-group-item">A.H. Beard</li>
+                <li class="list-group-item">Altus</li>
+                <li class="list-group-item">Artinox</li>
+                <li class="list-group-item">Barazza</li>
+                <li class="list-group-item">Beko</li>
+                <li class="list-group-item">Bialetti</li>
+                <li class="list-group-item">Billi</li>
+                <li class="list-group-item">Black & Decker</li>
+                <li class="list-group-item">Bora</li> -->
+
+            </ul>
+        </div>
+
+        </div>
+        
+    </div>
+
+    </div>
+    <!--Footer Links-->
+    <div class="row container d-flex justify-content-between mw-100 footer-links" id="footer-links">
+        <div class="col col-lg-2 col-md-2 col-sm-6 col-6">
+            <div class="col-heading-one footer-heading">
+                <strong>Customer Service</strong>
+            </div>
+            <div class="col-ul-container">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Delivery & Legendary Service</li>
+                    <li class="list-group-item">Buying Guides</li>
+                    <li class="list-group-item">Payment Methods</li>
+                    <li class="list-group-item">Product Reviews</li>
+                    <li class="list-group-item">FAQ</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <li class="list-group-item">Afterpay it</li>
+                    <li class="list-group-item">Zip - Own It Now, Pay Later</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="col col-lg-2 col-sm-6 col-6">
+            <div class="col-ul-container" id="col-ul-two-container">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Delivery & Legendary Service</li>
+                    <li class="list-group-item">Buying Guides</li>
+                    <li class="list-group-item">Payment Methods</li>
+                    <li class="list-group-item">Product Reviews</li>
+                    <li class="list-group-item">FAQ</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <li class="list-group-item">Afterpay it</li>
+                    <li class="list-group-item">Zip - Own It Now, Pay Later</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col col-lg-2 col-md-2 col-sm-6 col-6">
+            <div class="col-heading-one footer-heading">
+                <strong>About Appliances Online</strong>
+            </div>
+            <div class="col-ul-container">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Delivery & Legendary Service</li>
+                    <li class="list-group-item">Buying Guides</li>
+                    <li class="list-group-item">Payment Methods</li>
+                    <li class="list-group-item">Product Reviews</li>
+                    <li class="list-group-item">FAQ</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <li class="list-group-item">Afterpay it</li>
+                    <li class="list-group-item">Zip - Own It Now, Pay Later</li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="col col-lg-2 col-md-2 col-sm-6 col-6">
+            <div class="col-heading-one footer-heading">
+                <strong>Our Partners</strong>
+            </div>
+            <div class="col-ul-container">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Delivery & Legendary Service</li>
+                    <li class="list-group-item">Buying Guides</li>
+                    <li class="list-group-item">Payment Methods</li>
+                    <li class="list-group-item">Product Reviews</li>
+                    <li class="list-group-item">FAQ</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <!-- <li class="list-group-item">Afterpay it</li>
+                    <li class="list-group-item">Zip - Own It Now, Pay Later</li> -->
+
+                </ul>
+            </div>
+        </div>
+        <div class="col col-lg-2 col-md-2 col-sm-6 col-6">
+            <div class="col-ul-container" id="col-ul-two-container">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Delivery & Legendary Service</li>
+                    <li class="list-group-item">Buying Guides</li>
+                    <li class="list-group-item">Payment Methods</li>
+                    <li class="list-group-item">Product Reviews</li>
+                    <li class="list-group-item">FAQ</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <li class="list-group-item">Klarna - Buy Now, Pay Later</li>
+                    <!-- <li class="list-group-item">Afterpay it</li>
+                    <li class="list-group-item">Zip - Own It Now, Pay Later</li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- <div class="col">Customer Service</div>
+            <div class="col">Customer Service</div> -->
+    </div>
+    <!--Footer Icons-->
+    <div class="row d-flex flex-row mx-2 footer-row-div">
+       <div class="row w-75 f-row-1     align-items-center">
+
+            <div class="col-1 footer-img-div">
+                <img src="visa.png" >
+            </div>
+            <div class="col-1 footer-img-div">
+                <img src="master-card.png">
+            </div>
+            <div class="col-1 footer-img-div">
+                <img src="american-express.png">
+            </div>
+            <div class="col-1 footer-img-div">
+                <img src="paypal.png">
+            </div>
+            <div class="col-1 footer-img-div">
+                <img src="klarna.png">
+            </div>
+            <div class="col-1 footer-img-div">
+                <img src="afterpay.png">
+            </div>
+            <div class="col-1 footer-img-div">
+                <img src="zip.png">
+            </div>
+            <div class="col-1 footer-img-div">
+                <img src="tufin.png">
+            </div>
+            <div class="col-1 footer-img-div">
+                <img src="apple-payment.png">
+            </div>
+            <div class="col-1 footer-img-div">
+                <img src="g-pay-2.png">
+            </div>
+       </div>
+            
+       <div class="row w-25 justify-content-end f-row-2    align-items-center">
+            <div class="col-1 px-2 mx-2">
+                <span class="badge bg-secondary"><i class="fa-brands fa-facebook-f"></i></span>
+            </div>
+            <div class="col-1 px-2 mx-2">
+                <span class="badge bg-secondary"><i class="fa-brands fa-twitter"></i></span>
+            </div>
+            <div class="col-1 px-2 mx-2">
+                <span class="badge bg-secondary"><i class="fa-brands fa-instagram"></i></span>
+            </div>
+            <div class="col-1 px-2 mx-2">
+                <span class="badge bg-secondary"><i class="fa-brands fa-youtube"></i></span>
+
+            </div>
+       </div>
+
+    </div>
+
+
+
+
+    <!--end form container-->
+    <div class="row container d-flex flex-wrap mw-100 end-form">
+        <div class="col col-left">   
+            <h5>Get free content and exclusive deals</h5>
+           
+            <div class="col d-flex end-form-input-col ">
+                <div class="row m-2 name-div">
+                    <div class="d-flex justify-content-between"><label>Name</label><span>*</span></div>
+                    <input type="text"></input>
+                </div>
+                <div class="row m-2 email-div">
+                    <div class="d-flex justify-content-between"><label>Email</label><span>*</span></div>
+                    <input type="text"></input>
+                </div>
+                <div class="row m-2 post-code-div">
+                    <div class="d-flex justify-content-between"><label>PostCode</label><span></span></div>
+                    <input type="text"></input>
+                </div>
+                <div class="row m-2 sub-btn-div">
+                    <button class="btn btn-white sub-btn" type="submit">Subscribe</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col col-right">
+            <h5>Acknowledgement of Country</h5>
+            <p>
+                In the spirit of reconciliation, Appliances Online acknowledges the Traditional Custodians of country
+                throughout Australia and their connections to land, sea, and community. We pay our respect to their
+                Elders past and present and extend that respect to all Aboriginal and Torres Strait Islander peoples
+                today.
+            </p>
+        </div>
+    </div>
+    <div class="container row d-flex flex-wrap justify-content-between mw-100 last-footer">
+        <div class="col-6 left-row-footer">
+            <span>© 2004 - 2023 AppliancesOnline.com.au</span>
+            <span>ACN 151 833 546</span>
+            <span>ABN 19 151 833 546</span>
+            <!-- <div class="row"> -->
+                <!-- <div class="col-4"><span>© 2004 - 2023 AppliancesOnline.com.au</span></div>
+                <div class="col-2"><span>ACN 151 833 546</span></div>
+                <div class="col-2"><span>ABN 19 151 833 546</span></div> -->
+            <!-- </div> -->
+            
+        </div>
+        <div class="col-4 right-row-footer">
+            <span>Level 2, 20A Danks Street, Redfern NSW 2016</span>
+            <span>1300 007 500</span>
+            <!-- <div class="row"> -->
+                <!-- <div class="col-2"><span>Level 2, 20A Danks Street, Redfern NSW 2016</span></div>
+                <div class="col-2"><span>1300 007 500</span></div> -->
+            
+            <!-- </div> -->
+        </div>
+    </div>
+    <div class="container msg-modal-div">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary msg-modal-btn" data-bs-toggle="modal" data-bs-target="#msgModal">
+            <i class="fa-brands fa-rocketchat"></i>
+        </button>
+  
+  <!-- Modal -->
+  <div class="modal  fade msg-modal" id="msgModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        </div> -->
+        <div class="modal-body p-0">
+            <img src="msg-modal.png">
+           
+        </div>
+        <div class="modal-footer">
+            <div class=""></div>
+            <button type="button" class="btn btn-secondary" >Home</button>
+            <button type="button" class="btn btn-primary">Message</button>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+</html>
